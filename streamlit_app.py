@@ -6,7 +6,7 @@ st.title("🧬 Upload PDB Files to Analyze EGFR–Aptamer Contacts")
 
 uploaded_files = st.file_uploader("Upload one or more PDB files", type="pdb", accept_multiple_files=True)
 
-if not uploaded_files:
+if not uploaded_files:    
     st.info("👆 Upload some .pdb files to begin.")
     st.stop()
 
